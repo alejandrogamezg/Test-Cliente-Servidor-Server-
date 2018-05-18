@@ -31,7 +31,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &103768
 GameObject:
   m_ObjectHideFlags: 1
@@ -187,7 +187,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &166756
 GameObject:
   m_ObjectHideFlags: 1
@@ -215,7 +215,6 @@ GameObject:
   m_Component:
   - component: {fileID: 486840}
   - component: {fileID: 11483866}
-  - component: {fileID: 11453982}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -613,7 +612,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11453982}
+      - m_Target: {fileID: 0}
         m_MethodName: ButtonRPC
         m_Mode: 1
         m_Arguments:
@@ -735,7 +734,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11453982}
+      - m_Target: {fileID: 0}
         m_MethodName: ButtonCommand
         m_Mode: 1
         m_Arguments:
@@ -748,21 +747,6 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &11453982
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 174346}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 843566b0f09fc4e4aa0bfb98152477f7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  inputField: {fileID: 11421736}
-  cubeMat: {fileID: 2328758}
-  isGreen: 0
-  varToSync: 
 --- !u!114 &11476144
 MonoBehaviour:
   m_ObjectHideFlags: 1
